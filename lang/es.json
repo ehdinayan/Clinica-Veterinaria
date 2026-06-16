@@ -1,0 +1,208 @@
+
+{
+  "nav-servicios": "Servicios",
+  "nav-doctores": "Doctores",
+  "nav-contacto": "Contacto",
+  "nav-urgencias": "Urgencias",
+  "nav-tienda": "Tienda",
+
+  "index-header": "Bienvenidos a Clínica Veterinaria AnimalCare",
+
+  "index-hero": "Bienvenid@s a nuestra Clínica Veterinaria, un espacio dedicado al cuidado integral de tus mascotas. Ofrecemos atención profesional, cercana y personalizada para garantizar su bienestar en cada etapa de su vida.",
+
+  "index-hero2": "En nuestra clínica cuidamos de la salud y el bienestar de tus animales de compañía con dedicación, profesionalidad y cariño. Sabemos que forman parte de tu familia, por eso ofrecemos un trato cercano y personalizado para cada paciente.",
+
+  "index-hero3": "Contamos con un equipo de veterinarios altamente cualificados y en constante formación, preparados para brindar servicios de medicina preventiva, diagnóstico, cirugía y urgencias. Nuestro compromiso es ofrecer un trato respetuoso y cariñoso, tanto a las mascotas como a sus propietarios.",
+
+  "index-hero4": "En nuestras instalaciones encontrarás tecnología moderna y un ambiente cómodo, pensado para reducir el estrés de los animales durante su visita. Además, te asesoramos en nutrición, vacunación y cuidados diarios para asegurar una vida larga y saludable a tu compañero.",
+
+  "index-hero5": "Gracias por confiar en nosotros. Estamos aquí para cuidar de quienes más quieres.",
+
+  "footer-clinica": "Clínica Veterinaria<br>AnimalCare",
+
+  "footer-direccion": "Calle Ejemplo 123<br>Sabadell, Barcelona",
+
+  "footer-horario": "Horario: L-V 9:00–20:00 | S 10:00–14:00<br>Tel: 937 000 000",
+
+    "footer-creditos": "2026 realizado con ♡ por:",
+
+
+    
+
+
+  "services-title": "Nuestros servicios",
+
+  "services-subtitle": "Ofrecemos una amplia gama de servicios veterinarios, tanto en nuestra clínica como de asistencia en su domicilio.",
+
+  "services-clinic": "EN NUESTRA CLÍNICA",
+
+    "services-home": "A DOMICILIO",
+
+
+    
+
+    
+  "doctors-title": "Nuestro equipo de profesionales",
+
+  "doctor-1-title": "Dr. Alejandro Ruiz (centro) — Cirujano Veterinario, Director Médico",
+  "doctor-1-1": "Especialista en cirugía general y de tejidos blandos.",
+  "doctor-1-2": "Cuenta con más de 10 años de experiencia en intervenciones complejas y coordina el equipo médico de la clínica.",
+  "doctor-1-3": "Su prioridad es garantizar la seguridad y recuperación óptima de cada paciente.",
+
+  "doctor-2-title": "Dra. Laura Gómez (dcha.) — Veterinaria General",
+  "doctor-2-1": "Encargada de consultas rutinarias, revisiones y medicina preventiva.",
+  "doctor-2-2": "Destaca por su trato cercano con los animales y su capacidad para detectar problemas en fases tempranas.",
+
+  "doctor-3-title": "Dra. Marta Sánchez (izqda.) — Especialista en Dermatología",
+  "doctor-3-1": "Se ocupa de enfermedades de la piel, alergias e infecciones dermatológicas.",
+  "doctor-3-2": "Ayuda a mejorar la calidad de vida de las mascotas con tratamientos personalizados.",
+
+  "doctor-4-title": "Dr. Carlos Medina (izqda.) — Especialista en Anestesia",
+  "doctor-4-1": "Responsable de la sedación y control anestésico en cirugías.",
+  "doctor-4-2": "Garantiza procedimientos seguros mediante monitorización constante y protocolos avanzados.",
+
+  "doctor-5-title": "Ana Torres (fondo) — Asistente Veterinaria",
+  "doctor-5-1": "Apoya en consultas, cuidados básicos y atención a los pacientes.",
+  "doctor-5-2": "Es clave en la preparación del material clínico y en el bienestar de los animales durante su estancia.",
+
+  "doctor-6-title": "Dr. Javier Ortega (fondo) — Veterinario de Urgencias",
+  "doctor-6-1": "Especializado en atención inmediata y situaciones críticas.",
+    "doctor-6-2": "Actúa con rapidez y precisión en casos de emergencia.",
+
+
+
+
+  "contact-title": "Contacta con nosotros",
+
+  "contact-address-label": "Dirección:",
+  "contact-address": "Calle Ejemplo 123, Sabadell",
+
+  "contact-phone-label": "Teléfono:",
+
+  "contact-email-label": "Email:",
+
+  "contact-hours-label": "Horario:",
+  "contact-hours": "L-V 9:00–20:00 | S 10:00–14:00",
+
+  "contact-urgent-text": "Urgencias 24h: Llámanos antes de venir para prepararnos y atender a tu mascota sin esperas.",
+
+  "contact-call-btn": "Llamar ahora",
+  "contact-whatsapp-btn": "WhatsApp",
+  "contact-email-btn": "Envíanos un mensaje",
+
+    "contact-maps": "Ver ubicación en Google Maps",
+
+    
+
+    
+
+  "urg-title": "Urgencias",
+
+  "urg-intro-1": "En nuestra clínica estamos preparados para actuar con rapidez ante cualquier situación de urgencia. Sabemos que, cuando la salud de tu mascota está en riesgo, cada minuto cuenta.",
+
+  "urg-intro-2": "Nuestro equipo ofrece atención inmediata ante casos críticos, proporcionando diagnóstico y tratamiento urgente con los medios necesarios para estabilizar al paciente lo antes posible.",
+
+  "urg-subtitle": "Atendemos situaciones como:",
+
+  "urg-list-1": "Dificultad para respirar",
+  "urg-list-2": "Accidentes o traumatismos",
+  "urg-list-3": "Intoxicaciones",
+  "urg-list-4": "Convulsiones",
+  "urg-list-5": "Hemorragias",
+  "urg-list-6": "Dolor intenso o comportamiento anómalo",
+
+  "urg-text-final": "Contamos con equipamiento especializado y personal cualificado para afrontar emergencias con eficacia, manteniendo siempre un enfoque profesional y humano.",
+
+  "urg-phone": "Urgencias: 937 000 000",
+
+  "urg-img-alt": "veterinarios en actuación de urgencia",
+
+  "urg-protocol-title": "¿Qué hacer en caso de urgencia?",
+
+  "urg-protocol-1": "Mantén la calma y evita transmitir nerviosismo a tu mascota",
+  "urg-protocol-2": "Llama previamente para avisar de la situación",
+  "urg-protocol-3": "Evita manipular en exceso al animal si presenta dolor",
+  "urg-protocol-4": "En caso de hemorragia, aplica presión con un paño limpio",
+  "urg-protocol-5": "No provoques el vómito sin indicación veterinaria",
+  "urg-protocol-6": "Transporta a tu mascota con cuidado y estabilidad",
+
+  "urg-warning-title": "Importante:",
+
+  "urg-warning-text": "Nunca administres medicamentos sin consultar previamente con un veterinario. Podrías agravar la situación.",
+
+    "urg-link": "Atención en domicilio",
+
+
+
+
+
+  "clinic-title": "Servicios en nuestras instalaciones",
+
+  "clinic-img-alt": "quirófano de clínica veterinaria",
+
+  "clinic-text-1": "En nuestra clínica veterinaria ofrecemos un servicio integral pensado para cuidar de la salud y el bienestar de tu mascota en un entorno seguro, moderno y completamente equipado. Contamos con instalaciones diseñadas para proporcionar comodidad tanto a los animales como a sus propietarios, reduciendo el estrés durante la visita y garantizando una atención eficiente y de calidad.",
+
+  "clinic-text-2": "Nuestro equipo de profesionales altamente cualificados realiza consultas generales, revisiones periódicas, vacunaciones y desparasitaciones, fundamentales para la prevención de enfermedades. Además, disponemos de servicios de diagnóstico avanzado que nos permiten detectar y tratar cualquier patología con rapidez y precisión.",
+
+  "clinic-text-3": "En nuestras instalaciones también llevamos a cabo intervenciones quirúrgicas, siempre bajo estrictos protocolos de seguridad y con un seguimiento personalizado durante todo el proceso de recuperación.",
+
+  "clinic-text-4": "Trabajamos con tecnología moderna y un enfoque centrado en el bienestar animal, ofreciendo un trato cercano, respetuoso y adaptado a las necesidades de cada paciente.",
+
+  "clinic-card-title": "Nuestros servicios incluyen:",
+
+  "clinic-list-1": "Consultas generales",
+  "clinic-list-2": "Vacunación y desparasitación",
+  "clinic-list-3": "Diagnóstico clínico",
+  "clinic-list-4": "Cirugía veterinaria",
+  "clinic-list-5": "Hospitalización",
+  "clinic-list-6": "Asesoramiento nutricional",
+
+    "clinic-link": "SERVICIOS A DOMICILIO",
+
+
+
+
+
+
+  "s-home-title": "Tu servicio a domicilio: nos desplazamos",
+
+  "s-home-text-1": "En nuestra clínica sabemos que no siempre es fácil desplazarse con tu mascota. Por eso, ponemos a tu disposición nuestro servicio de atención veterinaria a domicilio, pensado para ofrecer comodidad, tranquilidad y un cuidado personalizado sin salir de casa.",
+
+  "s-home-text-2": "Nuestro equipo se desplaza hasta tu hogar para realizar consultas, revisiones generales, vacunaciones y seguimiento de tratamientos. Este servicio es especialmente útil para animales que se estresan durante los desplazamientos, mascotas con movilidad reducida o situaciones en las que el tiempo es un factor importante.",
+
+  "s-home-text-3": "Atendemos no solo a perros y gatos, sino también a otros animales de compañía como conejos, aves o pequeños mamíferos, adaptando cada visita a sus necesidades específicas.",
+
+  "s-home-text-4": "Trabajamos con el mismo compromiso, profesionalidad y cercanía que en nuestras instalaciones, garantizando una atención de calidad en un entorno familiar y seguro para tu mascota.",
+
+  "s-home-img-alt": "veterinario atendiendo a un ave exótica en casa del cliente",
+
+    "s-home-link": "SERVICIOS EN NUESTRA CLÍNICA",
+
+
+
+
+
+  "shop-title": "Tienda",
+
+  "shop-intro": "En nuestra tienda encontrarás una cuidada selección de productos para el bienestar de tu mascota. Trabajamos con marcas de confianza y ofrecemos asesoramiento personalizado para ayudarte a elegir la mejor opción en alimentación, higiene, juguetes y accesorios.",
+
+  "shop-img-1": "Alimentación para mascotas",
+  "shop-card-1-title": "Alimentación",
+  "shop-card-1-text": "Disponemos de piensos de alta calidad adaptados a cada etapa de vida y necesidades específicas.",
+
+  "shop-img-2": "Juguetes para mascotas",
+  "shop-card-2-title": "Juguetes",
+  "shop-card-2-text": "Estimula el ejercicio y la mente de tu mascota con nuestra variedad de juguetes seguros y divertidos.",
+
+  "shop-img-3": "Productos de higiene",
+  "shop-card-3-title": "Higiene",
+  "shop-card-3-text": "Champús, cepillos y productos de cuidado para mantener a tu mascota sana y limpia.",
+
+  "shop-img-4": "Accesorios para mascotas",
+  "shop-card-4-title": "Accesorios",
+  "shop-card-4-text": "Collares, correas, camas y todo lo necesario para el confort y seguridad de tu mascota.",
+
+  "shop-btn": "Ver más",
+
+  "shop-link": "Consulta disponibilidad en clínica"
+}

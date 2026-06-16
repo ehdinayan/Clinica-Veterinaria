@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clínica</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+    <style>
+      .clinic-container {
+	  width:90%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-flow:column;
+	  align-items:center;
+	  justify-content: center;
+	  text-align:center;
+	  gap:3rem;
+	  padding:1rem;
+      }
+      
+      .clinic-pic {
+	  display:flex;
+	  justify-content: center;    
+      }
+
+      .clinic-pic img {
+	  max-width: 95%;
+	  border: 1px solid black;
+	  border-radius: 10px;
+	  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      }
+
+      .clinic-card {
+	  padding: 1rem;
+	  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+	  border-radius: 8px;
+      }
+
+      .clinic-card h3 {
+	  margin-top: 0px;
+      }
+      
+      .clinic-card ul {
+	  list-style-type:none;
+	  display:flex;
+	  flex-flow: column;
+	  gap:1rem;
+      }
+      
+      main small {
+	  display: block;
+	  text-align: center;
+	  margin-top:1rem;
+      }
+      
+      small a,
+      .link a {
+	  display: inline-block;
+	  padding: 5px 9px;
+
+	  color: #006D77;
+	  background-color: #ffffff;
+
+	  border: 1px solid #006D77;
+      border-radius: 6px;
+
+      text-decoration: none;
+      font-weight: 600;
+
+      transition:
+	  background-color 0.35s ease,
+	  color 0.35s ease,
+	  border-color 0.35s ease,
+	  transform 0.2s ease;
+      
+      }
+
+      small a:hover,
+      .link a:hover {
+	  background-color: #006D77;
+	  color: #ffffff;
+	  border-color: #006D77;	  
+	  transform: translateY(-2px);
+      }
+
+      /*----MEDIA QUERIES-----*/
+
+      @media (max-width: 486px) {
+
+	  main img {
+	      /*min-width: 200px;*/
+	      width: 100%;
+	  }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav class="mobile-menu">
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>   
+    </header>
+
+    <!--Máscara menu movil-->
+    <div class="overlay"></div>
+    
+    <main>
+      <h1 data-i18n="clinic-title">Servicios en nuestras instalaciones</h1>
+      <div class="clinic-container">
+	<div class="clinic-pic">
+	  <img src="media/s-clinica.webp" alt="quirófano de clínica veterinaria">
+	</div>
+	<div class="clinic-text">
+	  <p data-i18n="clinic-text-1">En nuestra clínica veterinaria ofrecemos un servicio integral pensado para cuidar de la salud y el bienestar de tu mascota en un entorno seguro, moderno y completamente equipado. Contamos con instalaciones diseñadas para proporcionar comodidad tanto a los animales como a sus propietarios, reduciendo el estrés durante la visita y garantizando una atención eficiente y de calidad.</p>
+	  <br>
+	  <p data-i18n="clinic-text-2">Nuestro equipo de profesionales altamente cualificados realiza consultas generales, revisiones periódicas, vacunaciones y desparasitaciones, fundamentales para la prevención de enfermedades. Además, disponemos de servicios de diagnóstico avanzado que nos permiten detectar y tratar cualquier patología con rapidez y precisión.</p>
+	  <br>
+	  <p data-i18n="clinic-text-3">En nuestras instalaciones también llevamos a cabo intervenciones quirúrgicas, siempre bajo estrictos protocolos de seguridad y con un seguimiento personalizado durante todo el proceso de recuperación.</p>
+	  <br>
+	  <p data-i18n="clinic-text-4">Trabajamos con tecnología moderna y un enfoque centrado en el bienestar animal, ofreciendo un trato cercano, respetuoso y adaptado a las necesidades de cada paciente..</p>
+	</div>
+
+	<div class="clinic-card">
+	  <h3 data-i18n="clinic-card-title">Nuestros servicios incluyen:</h3>
+	  <ul>
+	    <li data-i18n="clinic-list-1">Consultas generales</li>
+	    <li data-i18n="clinic-list-2">Vacunación y desparasitación</li>
+	    <li data-i18n="clinic-list-3">Diagnóstico clínico</li>
+	    <li data-i18n="clinic-list-4">Cirugía veterinaria</li>
+	    <li data-i18n="clinic-list-5">Hospitalización</li>
+	    <li data-i18n="clinic-list-6">Asesoramiento nutricional</li>
+	  </ul>
+	</div>
+
+      </div>
+      
+      <small><a href="s-domicilio.html" data-i18n="clinic-link">SERVICIOS A DOMICILIO</a></small>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+	<div class="clinic">
+	  <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	      AnimalCare</strong></p>
+	  <br>
+	  <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	    Sabadell, Barcelona</address>
+	</div>
+	<div class="open">
+	  <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	    Tel: 937 000 000</p>
+	</div>
+	<div class="legal">
+          <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+	  <img
+	    src="media/CDB_small.webp"
+	    alt="Alejandro Dev"
+	    title="Crazy Diamond Business"
+	    loading="lazy"
+	    width="30"
+	    style="margin-top:1rem;">
+	</div>
+      </div>
+    </footer>
+    <script src="js/lang.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </body>
+</html>

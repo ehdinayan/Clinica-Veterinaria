@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="clinica veterinaria AnimalCare, la salud de tu animal de compañía es importante para nosotros.">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+    <style>
+
+      .contact-container {
+          width: 80%;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-areas: "left text";
+          gap: 2rem;
+          align-items: center;
+      }
+
+      .contact-left {
+          grid-area: left;
+          display: flex;
+          justify-content: center;
+      }
+
+      .contact-text {
+          grid-area: text;
+      }
+
+      .contact-info {
+	  background-color: #f8f9fa;
+	  padding: 1rem;
+	  border-radius: 10px;
+      }
+      
+      .contact-info p {
+          margin-bottom: 1rem;
+      }
+
+      .contact-info a {
+	  text-decoration:none;
+      }
+      
+      .contact-info a:hover {
+	  color:#e63946;
+      }
+
+      .highlight {
+          background-color: #e63946;
+          color: #fff;
+          padding: 1rem;
+          border-radius: 8px;
+          margin: 1.5rem 0;
+          font-weight: bold;
+      text-align:center;
+      }
+
+      .contact-buttons {
+	  display: grid;
+	  justify-items: center;
+	  gap: 0.5rem;
+      }
+
+      .contact-buttons a {
+	  text-align:center;
+	  padding: 0.7rem 1.2rem;
+          background-color: #006d77;
+          color: #fff;
+          border-radius: 5px;
+	  text-decoration: none;
+	  font-weight: bold;
+      }
+
+      .contact-buttons a:hover {
+	  background-color: #e29578;
+      }
+
+      .maps {
+	  text-align:center;
+	  margin:4rem 0rem 5rem;
+      }
+
+      .maps a {
+	  display: inline-block;
+	  padding: 5px 9px;
+
+	  color: #006D77;
+	  background-color: #ffffff;
+
+	  border: 1px solid #006D77;
+	  border-radius: 6px;
+
+	  text-decoration: none;
+	  font-weight: 600;
+
+	  transition:
+	      background-color 0.35s ease,
+	      color 0.35s ease,
+	      border-color 0.35s ease,
+	      transform 0.2s ease;
+	  
+      }
+
+      
+      .maps a:hover {
+	  background-color: #006D77;
+	  color: #ffffff;
+	  border-color: #006D77;	  
+	  transform: translateY(-2px);
+      }
+
+      
+
+      /*----Movil----*/
+
+      @media (max-width: 486px) {
+
+	  .contact-container {
+	      grid-template-columns: 1fr;
+	      grid-template-areas: "left"
+				   "text";
+	      gap: 1rem;
+	      align-items:center;
+	  }
+
+	  .maps a {
+	      font-size:12px;
+
+	  }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav>
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>    
+    </header>
+
+    <!--Máscara menu movil-->
+    <div class="overlay"></div>
+    
+    <main>
+      <h1 data-i18n="contact-title">Contacta con nosotros</h1>
+      <div class="contact-container">
+	<div class="contact-left">
+	  <div class="contact-info">
+            <p><strong data-i18n="contact-address-label">Dirección:</strong> <span data-i18n="contact-address"> Calle Ejemplo 123, Sabadell</span></p>
+            <p><strong data-i18n="contact-phone-label">Teléfono:</strong> <a href="tel:937000000"> 937 000 000</a></p>
+            <p><strong data-i18n="contact-email-label">Email:</strong> info@animalcare.com</p>
+            <p><strong data-i18n="contact-hours-label">Horario:</strong> <span data-i18n="contact-hours"> L-V 9:00–20:00 | S 10:00–14:00</span></p>
+									       </div>
+</div>
+<div class="contact-text">
+  <div class="highlight" data-i18n="contact-urgent-text">
+    Urgencias 24h: Llámanos antes de venir para prepararnos y atender a tu mascota sin esperas.
+  </div>
+
+  <div class="contact-buttons">
+    <a href="tel:937000000" data-i18n="contact-call-btn">Llamar ahora</a>
+    <a href="https://wa.me/34937000000" target="_blank" rel="noopener noreferrer" data-i18n="contact-whatsapp-btn">WhatsApp</a>     
+    <a href="mailto:urgencias@animalcare.com" data-i18n="contact-email-btn">Envíanos un mensaje</a>
+  </div>	  
+</div>
+</div>
+<p class="maps">
+  <a href="https://www.google.com/maps?q=Sabadell" target="_blank" rel="noopener noreferrer" data-i18n="contact-maps">
+    Ver ubicación en Google Maps
+  </a>
+</p>
+</main>
+<footer>
+  <div class="footer-container">
+    <div class="clinic">
+      <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	  AnimalCare</strong></p>
+      <br>
+      <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	Sabadell, Barcelona</address>
+    </div>
+    <div class="open">
+      <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	Tel: 937 000 000</p>
+    </div>
+    <div class="legal">
+      <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+      <img
+	src="media/CDB_small.webp"
+	alt="Alejandro Dev"
+	title="Crazy Diamond Business"
+	loading="lazy"
+	width="30"
+	style="margin-top:1rem;">
+    </div>
+  </div>
+</footer>
+<script src="js/lang.js" defer></script>
+<script src="js/menu.js" defer></script>
+</body>
+</html>
+
+

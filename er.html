@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urgencias</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+    <style>
+
+      .urgencias-main {
+	  width:80%;
+	  margin: 0 auto;
+	  display: grid;
+	  grid-template-columns: 1fr 0.8fr;
+	  grid-template-areas: "urgencias-text urgencias-pic";
+	  align-items: center;
+	  gap: 1rem;
+      }
+      
+      .urgencias-text {
+	  padding: 1rem;
+	  grid-area:urgencias-text;
+	  justify-self: end;  
+	  text-align: justify;
+      }
+
+      .urgencias-text p {
+	  margin-bottom: 1rem;
+      }
+
+      .lista-urgencias {
+	  margin: 1rem 0;
+	  padding-left: 1.5rem;
+      }
+
+      .urgencias-pic {
+	  grid-area: urgencias-pic;
+	  display:flex;
+	  justify-content:center;    
+      }
+
+      .urgencias-pic img {
+	  max-width:40%;
+	  border: 1px solid black;
+	  border-radius:10px;
+	  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      }
+      
+
+      .protocolo {
+	  width: 80%;
+	  margin: 3rem auto;
+      }
+      
+      .protocolo ul {
+	  padding-left: 1.5rem;
+	  margin-top: 1rem;
+      }
+      
+      .protocolo li {
+	  margin-bottom: 0.5rem;
+      }
+
+      .aviso {
+	  background-color: #ffddd2;
+	  border-left: 5px solid #e63946;
+	  padding: 1rem;
+	  margin-top: 1.5rem;
+	  text-align:center;
+      }
+
+      .cta-urgencias {
+	  text-align: center;
+	  margin-top: 2rem;
+	  font-size: 1.2rem;
+      }
+
+      .link {
+	  text-align:center;
+	  margin:4rem 0rem 5rem;
+      }
+
+      
+      .link a {
+	  display: inline-block;
+	  padding: 5px 9px;
+
+	  color: #006D77;
+	  background-color: #ffffff;
+
+	  border: 1px solid #006D77;
+	  border-radius: 6px;
+
+	  text-decoration: none;
+	  font-weight: 600;
+
+	  transition:
+	      background-color 0.35s ease,
+	      color 0.35s ease,
+	      border-color 0.35s ease,
+	      transform 0.2s ease;
+	  
+      }
+
+      
+      .link a:hover {
+	  background-color: #006D77;
+	  color: #ffffff;
+	  border-color: #006D77;	  
+	  transform: translateY(-2px);
+      }
+
+      /*----MEDIA QUERIES-----*/
+
+      @media (max-width: 1024px) {
+
+	  main img {
+	      min-width: 200px;
+	  }
+
+	  .urgencias-main {
+	      grid-template-columns: 1fr;
+	      grid-template-areas: "urgencias-text"
+				   "urgencias-pic";
+	      align-items: center;
+	      gap: 1rem;
+	  }
+
+	  .urgencias-text {
+	      padding: 1rem;
+	      grid-area:urgencias-text;
+	      justify-self:center;  
+	      text-align: center;
+	  }
+
+	  .urgencias-text ul {
+	      list-style:none;
+	      padding:0;
+	      margin:1rem;
+	  }
+
+	  .urgencias-text ul li {
+	      margin-top: 2rem;
+	      font-weight: bold;
+	  }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav>
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>  
+    </header>
+    
+    <!--Máscara menu movil-->
+    <div class="overlay"></div>
+    
+    <main>
+      <h2 data-i18n="urg-title">Urgencias</h2>
+      <div class="urgencias-main">
+	<div class="urgencias-text">
+	  <p data-i18n="urg-intro-1">En nuestra clínica estamos preparados para actuar con rapidez ante cualquier situación de urgencia. Sabemos que, cuando la salud de tu mascota está en riesgo, cada minuto cuenta.</p>
+
+	  <p data-i18n="urg-intro-2">Nuestro equipo ofrece atención inmediata ante casos críticos, proporcionando diagnóstico y tratamiento urgente con los medios necesarios para estabilizar al paciente lo antes posible.</p>
+
+	  <p style="text-decoration:underline"><strong data-i18n="urg-subtitle">Atendemos situaciones como:</strong></p>
+
+	  <ul class="lista-urgencias">
+	    <li data-i18n="urg-list-1">Dificultad para respirar</li>
+	    <li data-i18n="urg-list-2">Accidentes o traumatismos</li>
+	    <li data-i18n="urg-list-3">Intoxicaciones</li>
+	    <li data-i18n="urg-list-4">Convulsiones</li>
+	    <li data-i18n="urg-list-5">Hemorragias</li>
+	    <li data-i18n="urg-list-6">Dolor intenso o comportamiento anómalo</li>
+	  </ul>
+
+	  <p data-i18n="urg-text-final">Contamos con equipamiento especializado y personal cualificado para afrontar emergencias con eficacia, manteniendo siempre un enfoque profesional y humano.</p>
+	  <div class="cta-urgencias">
+	    <strong data-i18n="urg-phone">Urgencias: 937 000 000</strong>
+	  </div>
+	</div>
+	<div class="urgencias-pic">
+	  <img src="media/urgencias.webp" alt="veterinarios en actuación de urgemcia">
+	</div>
+      </div>
+      <div class="protocolo">
+	<h3 data-i18n="urg-protocol-title">¿Qué hacer en caso de urgencia?</h3>
+
+	<ul>
+	  <li data-i18n="urg-protocol-1">Mantén la calma y evita transmitir nerviosismo a tu mascota</li>
+	  <li data-i18n="urg-protocol-2">Llama previamente para avisar de la situación</li>
+	  <li data-i18n="urg-protocol-3">Evita manipular en exceso al animal si presenta dolor</li>
+	  <li data-i18n="urg-protocol-4">En caso de hemorragia, aplica presión con un paño limpio</li>
+	  <li data-i18n="urg-protocol-5">No provoques el vómito sin indicación veterinaria</li>
+	  <li data-i18n="urg-protocol-6">Transporta a tu mascota con cuidado y estabilidad</li>
+	</ul>
+
+	<div class="aviso">
+	  <strong data-i18n="urg-warning-title">Importante:</strong> <span data-i18n="urg-warning-text"> Nunca administres medicamentos sin consultar previamente con un veterinario. Podrías agravar la situación.</span>
+	</div>
+      </div>
+      
+      <div class="link">
+	<p><a href="s-domicilio.html" data-i18n="urg-link">Atención en domicilio</a></p>
+      </div>
+      
+    </main>
+    <footer>
+      <div class="footer-container">
+	<div class="clinic">
+	  <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	      AnimalCare</strong></p>
+	  <br>
+	  <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	    Sabadell, Barcelona</address>
+	</div>
+	<div class="open">
+	  <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	    Tel: 937 000 000</p>
+	</div>
+	<div class="legal">
+          <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+	  <img
+	    src="media/CDB_small.webp"
+	    alt="Alejandro Dev"
+	    title="Crazy Diamond Business"
+	    loading="lazy"
+	    width="30"
+	    style="margin-top:1rem;">
+	</div>
+      </div>
+    </footer>
+    <script src="js/lang.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </body>
+</html>

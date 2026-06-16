@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+    <style>
+      .servicios-container {
+	  display:flex;
+	  flex-flow:row;
+	  width:70%;
+	  margin: auto;
+	  gap: 2rem;
+	  align-items:center;
+      }
+
+      figure {
+	  padding: 5px;
+	  margin: auto;
+      }
+
+      main img {
+	  margin: auto;
+	  width: 300px;
+	  border-radius:10px;
+	  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      }
+
+      figcaption {
+	  background-color:#83c5be;
+	  color: white;
+	  font-family: bold sans-serif;
+	  padding: 3px;
+	  text-align: center;
+      }
+
+      /*----MEDIA QUERIES-----*/
+
+      @media (max-width: 1024px) {
+
+	  .servicios-container {
+	      flex-flow:column; 
+	      width:90%;
+	      margin: 0 auto;
+	      gap: 2rem;
+	      align-items:center;
+	  }
+      }
+
+      /*---Movil-----*/
+
+      @media (max-width: 486px){
+
+
+	  main img {
+	      max-width: 200px;
+	  }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav>
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>   
+    </header>
+
+    <!--Máscara menu movil-->
+    <div class="overlay"></div>
+
+    <main>
+      <h1 data-i18n="services-title">Nuestros servicios</h1>
+      <h2 data-i18n="services-subtitle">Ofrecemos una amplia gama de servicios veterinarios, tanto en nuestra clínica como de asistencia en su domicilio.</h2>
+      <div class="servicios-container">
+	<!--<h3>Ofrecemos una amplia gama de servicios veterinarios, tanto en nuestra clínica como de asistencia en su domicilio.</h3>-->
+	<figure>
+	  <a href="s-clinica.html">
+	    <img src="media/clinica.webp" alt="veterinaria atendiendo a un perro">
+	  </a>
+	  <figcaption data-i18n="services-clinic">EN NUESTRA CLÍNICA</figcaption>
+	</figure>
+	<figure>
+	  <a href="s-domicilio.html">
+	    <img src="media/domicilio.webp" alt="veterinaria atendiendo a un perro en su domicilio">
+	  </a>
+	  <figcaption data-i18n="services-home">A DOMICILIO</figcaption>
+	</figure>
+      </div>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+	<div class="clinic">
+	  <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	      AnimalCare</strong></p>
+	  <br>
+	  <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	    Sabadell, Barcelona</address>
+	</div>
+	<div class="open">
+	  <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	    Tel: 937 000 000</p>
+	</div>
+	<div class="legal">
+          <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+	  <img
+	    src="media/CDB_small.webp"
+	    alt="Alejandro Dev"
+	    title="Crazy Diamond Business"
+	    loading="lazy"
+	    width="30"
+	    style="margin-top:1rem;">
+	</div>
+      </div>
+    </footer>
+    <script src="js/lang.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </body>
+</html>

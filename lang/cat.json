@@ -1,0 +1,208 @@
+
+{
+  "nav-servicios": "Serveis",
+  "nav-doctores": "Doctors",
+  "nav-contacto": "Contacte",
+  "nav-urgencias": "Urgències",
+  "nav-tienda": "Botiga",
+
+  "index-header": "Benvinguts a la Clínica Veterinària AnimalCare",
+
+  "index-hero": "Benvinguts a la nostra Clínica Veterinària, un espai dedicat a la cura integral de les vostres mascotes. Oferim atenció professional, propera i personalitzada per garantir el seu benestar en cada etapa de la seva vida.",
+
+  "index-hero2": "A la nostra clínica cuidem la salut i el benestar dels teus animals de companyia amb dedicació, professionalitat i estima. Sabem que formen part de la teva família, per això oferim un tracte proper i personalitzat per a cada pacient.",
+
+  "index-hero3": "Comptem amb un equip de veterinaris altament qualificats i en formació constant, preparats per oferir serveis de medicina preventiva, diagnòstic, cirurgia i urgències. El nostre compromís és oferir un tracte respectuós i afectuós tant a les mascotes com als seus propietaris.",
+
+  "index-hero4": "A les nostres instal·lacions trobaràs tecnologia moderna i un ambient còmode, pensat per reduir l’estrès dels animals durant la seva visita. A més, t’assessorem en nutrició, vacunació i cures diàries per assegurar una vida llarga i saludable al teu company.",
+
+  "index-hero5": "Gràcies per confiar en nosaltres. Som aquí per cuidar dels qui més estimes.",
+
+  "footer-clinica": "Clínica Veterinària<br>AnimalCare",
+
+  "footer-direccion": "Carrer Exemple 123<br>Sabadell, Barcelona",
+
+  "footer-horario": "Horari: Dl-Dv 9:00–20:00 | Ds 10:00–14:00<br>Tel: 937 000 000",
+
+    "footer-creditos": "2026 realitzat amb ♡ per:",
+    
+
+
+  "services-title": "Els nostres serveis",
+
+  "services-subtitle": "Oferim una àmplia gama de serveis veterinaris, tant a la nostra clínica com d’assistència al vostre domicili.",
+
+  "services-clinic": "A LA NOSTRA CLÍNICA",
+
+    "services-home": "A DOMICILI",
+
+
+    
+  "doctors-title": "El nostre equip de professionals",
+
+  "doctor-1-title": "Dr. Alejandro Ruiz (centre) — Cirurgià Veterinari, Director Mèdic",
+  "doctor-1-1": "Especialista en cirurgia general i de teixits tous.",
+  "doctor-1-2": "Compta amb més de 10 anys d’experiència en intervencions complexes i coordina l’equip mèdic de la clínica.",
+  "doctor-1-3": "La seva prioritat és garantir la seguretat i la recuperació òptima de cada pacient.",
+
+  "doctor-2-title": "Dra. Laura Gómez (dreta) — Veterinària General",
+  "doctor-2-1": "Encarregada de consultes rutinàries, revisions i medicina preventiva.",
+  "doctor-2-2": "Destaca pel seu tracte proper amb els animals i la seva capacitat per detectar problemes en fases inicials.",
+
+  "doctor-3-title": "Dra. Marta Sánchez (esquerra) — Especialista en Dermatologia",
+  "doctor-3-1": "S’ocupa de malalties de la pell, al·lèrgies i infeccions dermatològiques.",
+  "doctor-3-2": "Ajuda a millorar la qualitat de vida de les mascotes amb tractaments personalitzats.",
+
+  "doctor-4-title": "Dr. Carlos Medina (esquerra) — Especialista en Anestèsia",
+  "doctor-4-1": "Responsable de la sedació i control anestèsic en cirurgies.",
+  "doctor-4-2": "Garanteix procediments segurs mitjançant monitorització constant i protocols avançats.",
+
+  "doctor-5-title": "Ana Torres (fons) — Auxiliar Veterinària",
+  "doctor-5-1": "Dona suport en consultes, cures bàsiques i atenció als pacients.",
+  "doctor-5-2": "És clau en la preparació del material clínic i en el benestar dels animals durant l’estada.",
+
+  "doctor-6-title": "Dr. Javier Ortega (fons) — Veterinari d’Urgències",
+  "doctor-6-1": "Especialitzat en atenció immediata i situacions crítiques.",
+    "doctor-6-2": "Actua amb rapidesa i precisió en casos d’emergència.",
+
+
+
+
+  "contact-title": "Contacta amb nosaltres",
+
+  "contact-address-label": "Adreça:",
+  "contact-address": "Carrer Exemple 123, Sabadell",
+
+  "contact-phone-label": "Telèfon:",
+
+  "contact-email-label": "Correu electrònic:",
+
+  "contact-hours-label": "Horari:",
+  "contact-hours": "Dl-Dv 9:00–20:00 | Ds 10:00–14:00",
+
+  "contact-urgent-text": "Urgències 24h: Truca’ns abans de venir per preparar-nos i atendre la teva mascota sense esperes.",
+
+  "contact-call-btn": "Truca ara",
+  "contact-whatsapp-btn": "WhatsApp",
+  "contact-email-btn": "Envia’ns un missatge",
+
+    "contact-maps": "Veure ubicació a Google Maps",
+
+
+
+
+
+  "urg-title": "Urgències",
+
+  "urg-intro-1": "A la nostra clínica estem preparats per actuar amb rapidesa davant qualsevol situació d'urgència. Sabem que, quan la salut de la teva mascota està en risc, cada minut compta.",
+
+  "urg-intro-2": "El nostre equip ofereix atenció immediata davant casos crítics, proporcionant diagnòstic i tractament urgent amb els mitjans necessaris per estabilitzar el pacient al més aviat possible.",
+
+  "urg-subtitle": "Atenem situacions com:",
+
+  "urg-list-1": "Dificultat per respirar",
+  "urg-list-2": "Accidents o traumatismes",
+  "urg-list-3": "Intoxicacions",
+  "urg-list-4": "Convulsions",
+  "urg-list-5": "Hemorràgies",
+  "urg-list-6": "Dolor intens o comportament anòmal",
+
+  "urg-text-final": "Comptem amb equipament especialitzat i personal qualificat per afrontar emergències amb eficàcia, mantenint sempre un enfocament professional i humà.",
+
+  "urg-phone": "Urgències: 937 000 000",
+
+  "urg-img-alt": "veterinaris en actuació d'urgència",
+
+  "urg-protocol-title": "Què fer en cas d'urgència?",
+
+  "urg-protocol-1": "Mantingues la calma i evita transmetre nerviosisme a la teva mascota",
+  "urg-protocol-2": "Truca prèviament per avisar de la situació",
+  "urg-protocol-3": "Evita manipular en excés l'animal si presenta dolor",
+  "urg-protocol-4": "En cas d'hemorràgia, aplica pressió amb un drap net",
+  "urg-protocol-5": "No provoquis el vòmit sense indicació veterinària",
+  "urg-protocol-6": "Transporta la teva mascota amb cura i estabilitat",
+
+  "urg-warning-title": "Important:",
+
+  "urg-warning-text": "Mai administris medicaments sense consultar prèviament amb un veterinari. Podries agreujar la situació.",
+
+    "urg-link": "Atenció a domicili",
+
+
+
+
+
+
+
+  "clinic-title": "Serveis a les nostres instal·lacions",
+
+  "clinic-img-alt": "quiròfan de clínica veterinària",
+
+  "clinic-text-1": "A la nostra clínica veterinària oferim un servei integral pensat per cuidar la salut i el benestar de la teva mascota en un entorn segur, modern i completament equipat. Comptem amb instal·lacions dissenyades per proporcionar comoditat tant als animals com als seus propietaris, reduint l'estrès durant la visita i garantint una atenció eficient i de qualitat.",
+
+  "clinic-text-2": "El nostre equip de professionals altament qualificats realitza consultes generals, revisions periòdiques, vacunacions i desparasitacions, fonamentals per a la prevenció de malalties. A més, disposem de serveis de diagnòstic avançat que ens permeten detectar i tractar qualsevol patologia amb rapidesa i precisió.",
+
+  "clinic-text-3": "A les nostres instal·lacions també duem a terme intervencions quirúrgiques, sempre sota estrictes protocols de seguretat i amb un seguiment personalitzat durant tot el procés de recuperació.",
+
+  "clinic-text-4": "Treballem amb tecnologia moderna i un enfocament centrat en el benestar animal, oferint un tracte proper, respectuós i adaptat a les necessitats de cada pacient.",
+
+  "clinic-card-title": "Els nostres serveis inclouen:",
+
+  "clinic-list-1": "Consultes generals",
+  "clinic-list-2": "Vacunació i desparasitació",
+  "clinic-list-3": "Diagnòstic clínic",
+  "clinic-list-4": "Cirurgia veterinària",
+  "clinic-list-5": "Hospitalització",
+  "clinic-list-6": "Assessorament nutricional",
+
+    "clinic-link": "SERVEIS A DOMICILI",
+
+
+
+
+
+
+  "s-home-title": "El teu servei a domicili: ens desplacem",
+
+  "s-home-text-1": "A la nostra clínica sabem que no sempre és fàcil desplaçar-se amb la teva mascota. Per això, posem a la teva disposició el nostre servei d'atenció veterinària a domicili, pensat per oferir comoditat, tranquil·litat i una cura personalitzada sense sortir de casa.",
+
+  "s-home-text-2": "El nostre equip es desplaça fins a casa teva per realitzar consultes, revisions generals, vacunacions i seguiment de tractaments. Aquest servei és especialment útil per a animals que s'estressen durant els desplaçaments, mascotes amb mobilitat reduïda o situacions en què el temps és un factor important.",
+
+  "s-home-text-3": "Atenem no només gossos i gats, sinó també altres animals de companyia com conills, aus o petits mamífers, adaptant cada visita a les seves necessitats específiques.",
+
+  "s-home-text-4": "Treballem amb el mateix compromís, professionalitat i proximitat que a les nostres instal·lacions, garantint una atenció de qualitat en un entorn familiar i segur per a la teva mascota.",
+
+  "s-home-img-alt": "veterinari atenent un ocell exòtic a casa del client",
+
+    "s-home-link": "SERVEIS A LA NOSTRA CLÍNICA",
+
+
+
+
+
+
+
+  "shop-title": "Botiga",
+
+  "shop-intro": "A la nostra botiga trobaràs una acurada selecció de productes per al benestar de la teva mascota. Treballem amb marques de confiança i oferim assessorament personalitzat per ajudar-te a escollir la millor opció en alimentació, higiene, joguines i accessoris.",
+
+  "shop-img-1": "Alimentació per a mascotes",
+  "shop-card-1-title": "Alimentació",
+  "shop-card-1-text": "Disposem de pinsos d'alta qualitat adaptats a cada etapa de vida i necessitats específiques.",
+
+  "shop-img-2": "Joguines per a mascotes",
+  "shop-card-2-title": "Joguines",
+  "shop-card-2-text": "Estimula l'exercici i la ment de la teva mascota amb la nostra varietat de joguines segures i divertides.",
+
+  "shop-img-3": "Productes d'higiene",
+  "shop-card-3-title": "Higiene",
+  "shop-card-3-text": "Xampús, raspalls i productes de cura per mantenir la teva mascota sana i neta.",
+
+  "shop-img-4": "Accessoris per a mascotes",
+  "shop-card-4-title": "Accessoris",
+  "shop-card-4-text": "Collars, corretges, llits i tot el necessari per al confort i la seguretat de la teva mascota.",
+
+  "shop-btn": "Veure més",
+
+  "shop-link": "Consulta disponibilitat a la clínica"
+}

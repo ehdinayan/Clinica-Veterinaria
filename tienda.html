@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimalCare-Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+
+    <style>
+      .shop-intro {
+          width: 80%;
+          margin: 0 auto;
+          text-align: center;
+      }
+
+      .shop-intro p {
+          margin-bottom: 2rem;
+          line-height: 1.6;
+      }
+
+      .shop-grid {
+          width: 90%;
+          margin: 0 auto 3rem;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 2rem;
+      }
+
+      .product {
+	  display:grid;
+	  grid-template-rows:auto auto 1.2fr auto;
+          background: #fff;
+          border-radius: 10px;
+          padding: 1rem;
+          text-align: center;
+          box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+          transition: transform 0.2s ease;
+      }
+
+      .product:hover {
+          transform: translateY(-5px);
+      }
+
+      .product img {
+          width: 100%;
+          border-radius: 10px;
+          margin-bottom: 1rem;
+      }
+
+      .product h3 {
+          margin-bottom: 0.5rem;
+      }
+
+      .product p {
+          font-size: 0.95rem;
+          line-height: 1.4;
+      }
+
+      .btn {
+      display: inline-block;
+      width: 70%;
+      justify-self:center;
+      text-align: center;
+      align-self: end;  
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #006d77;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      }
+
+      .btn:hover {
+      background-color: #e29578;
+      }
+
+      
+      #question a {
+      display: inline-block;
+      padding: 5px 9px;
+
+      color: #006D77;
+      background-color: #ffffff;
+
+      border: 1px solid #006D77;
+      border-radius: 6px;
+
+      text-decoration: none;
+      font-weight: 600;
+
+      transition:
+      background-color 0.35s ease,
+      color 0.35s ease,
+      border-color 0.35s ease,
+      transform 0.2s ease;
+      }
+
+      
+      #question a:hover {
+      background-color: #006D77;
+      color: #ffffff;
+      border-color: #006D77;	  
+      transform: translateY(-2px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav>
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>
+    </header>
+
+    <!--Máscara menu movil-->
+    <div class="overlay"></div>
+   
+    <main>
+      <h1 data-i18n="shop-title">Tienda</h1>
+
+      <section class="shop-intro">
+        <p data-i18n="shop-intro">
+          En nuestra tienda encontrarás una cuidada selección de productos para el bienestar de tu mascota. 
+          Trabajamos con marcas de confianza y ofrecemos asesoramiento personalizado para ayudarte a elegir 
+          la mejor opción en alimentación, higiene, juguetes y accesorios.
+        </p>
+      </section>
+
+      <section class="shop-grid">
+
+        <article class="product">
+          <img src="media/alimentacion.webp" alt="Alimentación para mascotas" data-i18n-alt="shop-img-1">
+          <h2 data-i18n="shop-card-1-title">Alimentación</h2>
+          <p data-i18n="shop-card-1-text">Disponemos de piensos de alta calidad adaptados a cada etapa de vida y necesidades específicas.</p>
+          <a href="#" class="btn" data-i18n="shop-btn">Ver más</a>
+        </article>
+
+        <article class="product">
+          <img src="media/juguetes.webp" alt="Juguetes para mascotas" data-i18n-alt="shop-img-2">
+          <h2 data-i18n="shop-card-2-title">Juguetes</h2>
+          <p data-i18n="shop-card-2-text">Estimula el ejercicio y la mente de tu mascota con nuestra variedad de juguetes seguros y divertidos.</p>
+          <a href="#" class="btn" data-i18n="shop-btn">Ver más</a>
+        </article>
+
+        <article class="product">
+          <img src="media/higiene.webp" alt="Productos de higiene" data-i18n-alt="shop-img-3">
+          <h2 data-i18n="shop-card-3-title">Higiene</h2>
+          <p data-i18n="shop-card-3-text">Champús, cepillos y productos de cuidado para mantener a tu mascota sana y limpia.</p>
+          <a href="#" class="btn" data-i18n="shop-btn">Ver más</a>
+        </article>
+
+        <article class="product">
+          <img src="media/accesorios.webp" alt="Accesorios para mascotas" data-i18n-alt="shop-img-4">
+          <h2 data-i18n="shop-card-4-title">Accesorios</h2>
+          <p data-i18n="shop-card-4-text">Collares, correas, camas y todo lo necesario para el confort y seguridad de tu mascota.</p>
+          <a href="#" class="btn" data-i18n="shop-btn">Ver más</a>
+        </article>
+
+      </section>
+
+      <p id="question" style="text-align:center">
+        <a href="contacto.html" data-i18n="shop-link">Consulta disponibilidad en clínica</a>
+      </p>
+
+    </main>
+    <footer>
+      <div class="footer-container">
+	<div class="clinic">
+	  <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	      AnimalCare</strong></p>
+	  <br>
+	  <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	    Sabadell, Barcelona</address>
+	</div>
+	<div class="open">
+	  <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	    Tel: 937 000 000</p>
+	</div>
+	<div class="legal">
+          <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+	  <img
+	    src="media/CDB_small.webp"
+	    alt="Alejandro Dev"
+	    title="Crazy Diamond Business"
+	    loading="lazy"
+	    width="30"
+	    style="margin-top:1rem;">
+	</div>
+      </div>
+    </footer>
+    <script src="js/lang.js" defer></script>
+    <script src="js/menu.js" defer></script>
+
+  </body>
+</html>

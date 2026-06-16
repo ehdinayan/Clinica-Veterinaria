@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doctores</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+    <style>
+      .doctores-container {
+	  width:80%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-flow:column;
+	  align-items:center;
+	  justify-content: center;
+	  text-align:center;
+	  gap:3rem;
+	  padding:1rem;
+      }
+      .doctores-pic { 
+	  display:flex;
+	  justify-content: center;    
+      }
+
+      .doctores-pic img {
+	  max-width: 95%;
+	  border: 1px solid black;
+	  border-radius: 10px;
+	  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      }
+
+      main ul {
+	  list-style-type:none;
+	  
+	  margin:1rem;
+      }
+
+      /*----MEDIA QUERIES-----*/
+
+      @media (max-width: 1024px) {
+
+	  .doctores-container {
+	      width:90%;
+	  }
+	  
+	  main img {
+	      min-width: 225px;
+	  }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav>
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>    
+    </header>
+
+    <!--Máscara menu movil-->
+    <div class="overlay"></div>
+    
+    <main>
+      <h1 data-i18n="doctors-title">Nuestro equipo de profesionales</h1>
+      <div class="doctores-container">
+	<div class="doctores-pic">
+	  <img src="media/doctores.webp" alt="miembros del equipo veterinario de la clínica">
+	</div>
+	<div class="doctores-text">
+	  <ul>
+	    <li><strong data-i18n="doctor-1-title">Dr. Alejandro Ruiz (centro) — Cirujano Veterinario, Director Médico</strong>
+	      <ul>
+		<li data-i18n="doctor-1-1">Especialista en cirugía general y de tejidos blandos.</li>
+		<li data-i18n="doctor-1-2">Cuenta con más de 10 años de experiencia en intervenciones complejas y coordina el equipo médico de la clínica.</li>
+		<li data-i18n="doctor-1-3">Su prioridad es garantizar la seguridad y recuperación óptima de cada paciente.</li>
+	      </ul>
+	    </li>
+	    
+	    <li>
+	      <strong data-i18n="doctor-2-title">Dra. Laura Gómez (dcha.) — Veterinaria General</strong>
+	      <ul>
+		<li data-i18n="doctor-2-1">Encargada de consultas rutinarias, revisiones y medicina preventiva.</li>
+		<li data-i18n="doctor-2-2">Destaca por su trato cercano con los animales y su capacidad para detectar problemas en fases tempranas.</li>
+	      </ul>
+	    </li>
+	    <li>
+	      <strong data-i18n="doctor-3-title">Dra. Marta Sánchez (izqda.) — Especialista en Dermatología</strong>
+	      <ul>
+		<li data-i18n="doctor-3-1">Se ocupa de enfermedades de la piel, alergias e infecciones dermatológicas.</li>
+		<li data-i18n="doctor-3-2">Ayuda a mejorar la calidad de vida de las mascotas con tratamientos personalizados.</li>
+	      </ul>
+	    </li>
+	    <li>
+	      <strong data-i18n="doctor-4-title">Dr. Carlos Medina (izqda.) — Especialista en Anestesia</strong>
+	      <ul>
+		<li data-i18n="doctor-4-1">Responsable de la sedación y control anestésico en cirugías.</li>
+		<li data-i18n="doctor-4-2"> Garantiza procedimientos seguros mediante monitorización constante y protocolos avanzados.</li>
+	      </ul>
+	    </li>
+	    <li>
+	      <strong data-i18n="doctor-5-title">Ana Torres (fondo) — Asistente Veterinaria</strong>
+	      <ul>
+		<li data-i18n="doctor-5-1">Apoya en consultas, cuidados básicos y atención a los pacientes.</li>
+		<li data-i18n="doctor-5-1">Es clave en la preparación del material clínico y en el bienestar de los animales durante su estancia.</li>
+	      </ul>
+	    <li>
+	      <strong data-i18n="doctor-6-title">Dr. Javier Ortega (fondo) — Veterinario de Urgencias</strong>
+	      <ul>
+		<li data-i18n="doctor-6-1">Especializado en atención inmediata y situaciones críticas.</li>
+		<li data-i18n="doctor-6-2">Actúa con rapidez y precisión en casos de emergencia.</li>
+	      </ul>
+	    </li>
+	  </ul>
+	</div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+	<div class="clinic">
+	  <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	      AnimalCare</strong></p>
+	  <br>
+	  <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	    Sabadell, Barcelona</address>
+	</div>
+	<div class="open">
+	  <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	    Tel: 937 000 000</p>
+	</div>
+	<div class="legal">
+          <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+	  <img
+	    src="media/CDB_small.webp"
+	    alt="Alejandro Dev"
+	    title="Crazy Diamond Business"
+	    loading="lazy"
+	    width="30"
+	    style="margin-top:1rem;">
+	</div>
+      </div>
+    </footer>
+    <script src="js/lang.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </body>
+</html>

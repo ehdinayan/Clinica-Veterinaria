@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Domicilio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+    <style>
+      .home-container {
+	  width:90%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-flow:column;
+	  align-items:center;
+	  justify-content: center;
+	  text-align:center;
+	  gap:3rem;
+	  padding:1rem;
+      }
+      
+      .home-pic {
+	  display:flex;
+	  justify-content: center;    
+      }
+
+      .home-pic img {
+	  max-width: 95%;
+	  border: 1px solid black;
+	  border-radius: 10px;
+	  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      }
+
+      main small {
+	  display: block;
+	  text-align: center;
+	  margin-top:1rem;
+      }
+      
+      small a,
+      .link a {
+	  display: inline-block;
+	  padding: 5px 9px;
+
+	  color: #006D77;
+	  background-color: #ffffff;
+
+	  border: 1px solid #006D77;
+	  border-radius: 6px;
+
+	  text-decoration: none;
+	  font-weight: 600;
+
+	  transition:
+	      background-color 0.35s ease,
+	      color 0.35s ease,
+	      border-color 0.35s ease,
+	      transform 0.2s ease;
+	  
+      }
+
+      small a:hover,
+      .link a:hover {
+	  background-color: #006D77;
+      color: #ffffff;
+      border-color: #006D77;	  
+      transform: translateY(-2px);
+      }
+
+      /*----MEDIA QUERIES-----*/
+
+      @media (max-width: 486px) {
+
+	  main img {
+	      min-width: 200px;
+	      width: 100%;
+	  }
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav>
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>
+    </header>
+
+    <!--Máscara menu movil-->
+    <div class="overlay"></div>
+    
+    <main>
+      <h1 data-i18n="s-home-title">Tu servicio a domicilio: nos desplazamos</h1>
+      <div class="home-container">
+	<div class="home-text">
+	  <p data-i18n="s-home-text-1">En nuestra clínica sabemos que no siempre es fácil desplazarse con tu mascota. Por eso, ponemos a tu disposición nuestro servicio de atención veterinaria a domicilio, pensado para ofrecer comodidad, tranquilidad y un cuidado personalizado sin salir de casa.</p>
+	  <br>
+	  <p data-i18n="s-home-text-2">Nuestro equipo se desplaza hasta tu hogar para realizar consultas, revisiones generales, vacunaciones y seguimiento de tratamientos. Este servicio es especialmente útil para animales que se estresan durante los desplazamientos, mascotas con movilidad reducida o situaciones en las que el tiempo es un factor importante.</p>
+	  <br>
+	  <p data-i18n="s-home-text-3">Atendemos no solo a perros y gatos, sino también a otros animales de compañía como conejos, aves o pequeños mamíferos, adaptando cada visita a sus necesidades específicas.</p>
+	  <br>
+	  <p data-i18n="s-home-text-4">Trabajamos con el mismo compromiso, profesionalidad y cercanía que en nuestras instalaciones, garantizando una atención de calidad en un entorno familiar y seguro para tu mascota.</p><br>
+	</div>
+	<div class="home-pic">
+	  <img src="media/s-domicilio3.webp" data-i18n-alt="s-home-img-alt" alt="veterinario atendiendo a una ave exótica">
+	</div>
+      </div>
+      
+      <small><a href="s-clinica.html" data-i18n="s-home-link">Servicios en nuestra Clínica</a></small>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+	<div class="clinic">
+	  <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	      AnimalCare</strong></p>
+	  <br>
+	  <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	    Sabadell, Barcelona</address>
+	</div>
+	<div class="open">
+	  <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	    Tel: 937 000 000</p>
+	</div>
+	<div class="legal">
+          <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+	  <img
+	    src="media/CDB_small.webp"
+	    alt="Alejandro Dev"
+	    title="Crazy Diamond Business"
+	    loading="lazy"
+	    width="30"
+	    style="margin-top:1rem;">
+	</div>
+      </div>
+    </footer>
+    <script src="js/lang.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </body>
+</html>

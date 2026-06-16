@@ -1,0 +1,90 @@
+
+{
+  "nav-servicios": "Serveis",
+  "nav-doctores": "Doctors",
+  "nav-contacto": "Contacte",
+  "nav-urgencias": "Urgències",
+  "nav-tienda": "Botiga",
+
+  "index-header": "Benvinguts a la Clínica Veterinària AnimalCare",
+
+  "index-hero": "Benvinguts a la nostra Clínica Veterinària, un espai dedicat a la cura integral de les vostres mascotes. Oferim atenció professional, propera i personalitzada per garantir el seu benestar en cada etapa de la seva vida.",
+
+  "index-hero2": "A la nostra clínica cuidem la salut i el benestar dels teus animals de companyia amb dedicació, professionalitat i estima. Sabem que formen part de la teva família, per això oferim un tracte proper i personalitzat per a cada pacient.",
+
+  "index-hero3": "Comptem amb un equip de veterinaris altament qualificats i en formació constant, preparats per oferir serveis de medicina preventiva, diagnòstic, cirurgia i urgències. El nostre compromís és oferir un tracte respectuós i afectuós tant a les mascotes com als seus propietaris.",
+
+  "index-hero4": "A les nostres instal·lacions trobaràs tecnologia moderna i un ambient còmode, pensat per reduir l’estrès dels animals durant la seva visita. A més, t’assessorem en nutrició, vacunació i cures diàries per assegurar una vida llarga i saludable al teu company.",
+
+  "index-hero5": "Gràcies per confiar en nosaltres. Som aquí per cuidar dels qui més estimes.",
+
+  "footer-clinica": "Clínica Veterinària<br>AnimalCare",
+
+  "footer-direccion": "Carrer Exemple 123<br>Sabadell, Barcelona",
+
+  "footer-horario": "Horari: Dl-Dv 9:00–20:00 | Ds 10:00–14:00<br>Tel: 937 000 000",
+
+    "footer-creditos": "2026 realitzat amb ♡ per:",
+    
+
+
+  "services-title": "Els nostres serveis",
+
+  "services-subtitle": "Oferim una àmplia gamma de serveis veterinaris, tant a la nostra clínica com d’assistència al vostre domicili.",
+
+  "services-clinic": "A LA NOSTRA CLÍNICA",
+
+    "services-home": "A DOMICILI",
+
+
+    
+  "doctors-title": "El nostre equip de professionals",
+
+  "doctor-1-title": "Dr. Alejandro Ruiz (centre) — Cirurgià Veterinari, Director Mèdic",
+  "doctor-1-1": "Especialista en cirurgia general i de teixits tous.",
+  "doctor-1-2": "Compta amb més de 10 anys d’experiència en intervencions complexes i coordina l’equip mèdic de la clínica.",
+  "doctor-1-3": "La seva prioritat és garantir la seguretat i la recuperació òptima de cada pacient.",
+
+  "doctor-2-title": "Dra. Laura Gómez (dreta) — Veterinària General",
+  "doctor-2-1": "Encarregada de consultes rutinàries, revisions i medicina preventiva.",
+  "doctor-2-2": "Destaca pel seu tracte proper amb els animals i la seva capacitat per detectar problemes en fases inicials.",
+
+  "doctor-3-title": "Dra. Marta Sánchez (esquerra) — Especialista en Dermatologia",
+  "doctor-3-1": "S’ocupa de malalties de la pell, al·lèrgies i infeccions dermatològiques.",
+  "doctor-3-2": "Ajuda a millorar la qualitat de vida de les mascotes amb tractaments personalitzats.",
+
+  "doctor-4-title": "Dr. Carlos Medina (esquerra) — Especialista en Anestèsia",
+  "doctor-4-1": "Responsable de la sedació i control anestèsic en cirurgies.",
+  "doctor-4-2": "Garanteix procediments segurs mitjançant monitorització constant i protocols avançats.",
+
+  "doctor-5-title": "Ana Torres (fons) — Auxiliar Veterinària",
+  "doctor-5-1": "Dona suport en consultes, cures bàsiques i atenció als pacients.",
+  "doctor-5-2": "És clau en la preparació del material clínic i en el benestar dels animals durant l’estada.",
+
+  "doctor-6-title": "Dr. Javier Ortega (fons) — Veterinari d’Urgències",
+  "doctor-6-1": "Especialitzat en atenció immediata i situacions crítiques.",
+    "doctor-6-2": "Actua amb rapidesa i precisió en casos d’emergència.",
+
+
+
+
+  "contact-title": "Contacta amb nosaltres",
+
+  "contact-address-label": "Adreça:",
+  "contact-address": "Carrer Exemple 123, Sabadell",
+
+  "contact-phone-label": "Telèfon:",
+
+  "contact-email-label": "Correu electrònic:",
+
+  "contact-hours-label": "Horari:",
+  "contact-hours": "Dl-Dv 9:00–20:00 | Ds 10:00–14:00",
+
+  "contact-urgent-text": "Urgències 24h: Truca’ns abans de venir per preparar-nos i atendre la teva mascota sense esperes.",
+
+  "contact-call-btn": "Truca ara",
+  "contact-whatsapp-btn": "WhatsApp",
+  "contact-email-btn": "Envia’ns un missatge",
+
+  "contact-maps": "Veure ubicació a Google Maps"
+}

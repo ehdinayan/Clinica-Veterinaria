@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="clinica veterinaria AnimalCare, la salud de tu animal de compañía es importante para nosotros.">
+    <title>AnimalCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="media/animalcare-fav.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/animalcare-fav.png">
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+	<div class="logo">
+	  <a href="index.html">
+	    <img src="media/logo.webp" alt="logo clínica">
+	  </a>	   
+	</div>
+	<div class="nav-menu">
+	  <nav>
+            <ul>
+              <li><a href="servicios.html" data-i18n="nav-servicios">Servicios</a></li>
+              <li><a href="doctores.html" data-i18n="nav-doctores">Doctores</a></li>
+              <li><a href="contacto.html" data-i18n="nav-contacto">Contacto</a></li>
+              <li><a href="er.html" data-i18n="nav-urgencias">Urgencias</a></li>
+              <li><a href="tienda.html" data-i18n="nav-tienda">Tienda</a></li>
+	    </ul>
+          </nav>          
+        </div>
+	<!-- Botón hamburguesa -->
+	<div class="nav-right">
+	  <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+	  </button>
+	</div>
+      </div>
+      <!--Idioma-->
+      <div id="flags" class="flags">
+	<div class="flags_item">
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="es"
+	    aria-label="Cambiar a español">
+	    
+	    <img src="media/es.svg" alt="bandera España">
+	  </button>
+	  
+	  <button
+	    type="button"
+	    class="flag-btn"
+	    data-language="cat"
+	    aria-label="Cambiar a catalán">
+
+	    <img src="media/es-ct.svg" alt="bandera Catalunya">
+	  </button>
+	</div>
+      </div>      
+    </header>
+    
+    <!--Oscurecer fondo en menu movil activo-->
+    <div class="overlay"></div>
+
+    <main>
+      <h1 data-i18n="index-header">Bienvenidos a Clínica Veterinaria AnimalCare</h1>
+      <div class="main-container">
+	<div class="pic">
+	  <img src="media/index.webp" alt="veterinaria con animales">
+	</div>
+	<div class="text">
+	  <p data-i18n="index-hero">Bienvenid@s a nuestra Clínica Veterinaria, un espacio dedicado al cuidado integral de tus mascotas. Ofrecemos atención profesional, cercana y personalizada para garantizar su bienestar en cada etapa de su vida.
+	  </p>
+	  <br>
+	  <p data-i18n="index-hero2">En nuestra clínica cuidamos de la salud y el bienestar de tus animales de compañía con dedicación, profesionalidad y cariño. Sabemos que forman parte de tu familia, por eso ofrecemos un trato cercano y personalizado para cada paciente.</p>
+	  <br>
+	  <p data-i18n="index-hero3">Contamos con un equipo de veterinarios altamente cualificados y en constante formación, preparados para brindar servicios de medicina preventiva, diagnóstico, cirugía y urgencias. Nuestro compromiso es ofrecer un trato respetuoso y cariñoso, tanto a las mascotas como a sus propietarios.</p>
+	  <br>
+	  <p data-i18n="index-hero4">En nuestras instalaciones encontrarás tecnología moderna y un ambiente cómodo, pensado para reducir el estrés de los animales durante su visita. Además, te asesoramos en nutrición, vacunación y cuidados diarios para asegurar una vida larga y saludable a tu compañero.</p><br>
+
+	  <p data-i18n="index-hero5"> Gracias por confiar en nosotros. Estamos aquí para cuidar de quienes más quieres.</p>
+	</div>
+      </div>     
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+	<div class="clinic">
+	  <p><strong data-i18n="footer-clinica">Clínica Veterinaria<br>
+	      AnimalCare</strong></p>
+	  <br>
+	  <address data-i18n="footer-direccion">Calle Ejemplo 123<br>
+	    Sabadell, Barcelona</address>
+	</div>
+	<div class="open">
+	  <p data-i18n="footer-horario">Horario: L-V 9:00–20:00 | S 10:00–14:00<br>
+	    Tel: 937 000 000</p>
+	</div>
+	<div class="legal">
+          <small data-i18n="footer-creditos">2026 realizado con &#x2661; por:</small><br>
+	  <img
+	    src="media/CDB_small.webp"
+	    alt="Alejandro Dev"
+	    title="Crazy Diamond Business"
+	    loading="lazy"
+	    width="30"
+	    style="margin-top:1rem;">
+	</div>
+      </div>
+    </footer>
+    <script src="js/lang.js" defer></script>
+    <script src="js/menu.js" defer></script>
+  </body>
+</html>
+

@@ -55,6 +55,7 @@ header {
 
 .logo img {
     max-height: 12vh;
+    width: auto;
     border-radius:5px;
 }
 

@@ -262,6 +262,11 @@ footer {
     text-align:center;
 }
 
+.legal img {
+    width: 40px;
+    height: auto;
+}
+
 /*----MEDIA QUERIES-----*/
 
 
@@ -443,5 +448,5 @@ footer {
     .clinic {
 	flex-direction: column;
     }
-}
+  
 
